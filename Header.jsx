@@ -25,6 +25,7 @@ const StyledHeader = styled.div`
     justify-content: space-between;
     padding-right: 50px;
 
+
 `
 const StyledHeaderp = styled.div`
     font-size: 30px;

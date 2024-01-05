@@ -22,6 +22,7 @@ const Container = () => {
 
 const StyledContainer = styled.div`
   display: flex;
+  justify-content: center;
 `;
 
 const StyledContainerBox = styled.div`
@@ -40,12 +41,12 @@ const StyledContainerBox = styled.div`
 const StyledContainerBoxWrap = styled.div``;
 
 const StyledContainerMain = styled.div`
-  display: flex;
+   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #f6f5f5;
-  width: 1240px;
+  width: 80%;
   height: 550px;
   margin-top: 20px;
 `;
@@ -60,7 +61,7 @@ const StyledContainerMainTitle = styled.div`
 `;
 
 const StyledContainerMainSubtitle = styled.div`
-  display: flex;
+    display: flex;
   color: red;
   justify-content: center;
   font-weight: 500;
